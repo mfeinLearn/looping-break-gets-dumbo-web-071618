@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 def levitation_quiz
 	#your code here
@@ -7,7 +7,7 @@ def levitation_quiz
           answer = gets.chomp
           break if answer == "Wingardium Leviosa"
       end
-      binding.pry
+      # binding.pry
       puts "You passed the quiz!"
 
 end
